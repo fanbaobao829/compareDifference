@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yangfan/CLionProjects/compareDifference/errorLog.h
+string
+-
+iostream
+-
+fstream
+-
+cassert
+-
+
+/Users/yangfan/CLionProjects/compareDifference/fileWriter.cpp
+fileWriter.h
+/Users/yangfan/CLionProjects/compareDifference/fileWriter.h
+
+/Users/yangfan/CLionProjects/compareDifference/fileWriter.h
+string
+-
+fstream
+-
+ctime
+-
+errorLog.h
+/Users/yangfan/CLionProjects/compareDifference/errorLog.h
+
